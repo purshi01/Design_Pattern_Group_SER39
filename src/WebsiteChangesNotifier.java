@@ -1,9 +1,11 @@
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class WebsiteChangesNotifier {
     private static WebsiteChangesNotifier instance = new WebsiteChangesNotifier();
+    private static List<Date> date;
 
     private WebsiteChangesNotifier() {
     }
@@ -24,4 +26,10 @@ public class WebsiteChangesNotifier {
 
         return changes;
     }
+
+    public int numberOfTimesVisitedAWebsiteInAPeriod(Date from, Date to){
+        //Return the number of times that we have visited the website based in DATE List
+        return 5;
+    }
+
 }
