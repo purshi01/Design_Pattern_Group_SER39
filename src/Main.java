@@ -1,4 +1,5 @@
 
+import java.util.Date;
 import java.util.Iterator;
 
 public class Main {
@@ -16,6 +17,7 @@ public class Main {
                 System.out.println(change);
             }
         }
+        System.out.println("Number of times visited the website "+notifier.numberOfTimesVisitedAWebsiteInAPeriod(new Date(), new Date()));
 
     }
 }
