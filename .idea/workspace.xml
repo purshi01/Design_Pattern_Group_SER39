@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c80ebdd6-be09-4e01-ac57-d4f35fc15881" name="Changes" comment="Removed course syllabus file since Generation syllabus already present">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c80ebdd6-be09-4e01-ac57-d4f35fc15881" name="Changes" comment="jdk version" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665643147105</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="jdk version">
+      <created>1665644465651</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665644465651</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +109,7 @@
     <MESSAGE value="Integration of the project from various design pattern" />
     <MESSAGE value="Removed course syllabus" />
     <MESSAGE value="Removed course syllabus file since Generation syllabus already present" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed course syllabus file since Generation syllabus already present" />
+    <MESSAGE value="jdk version" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdk version" />
   </component>
 </project>
