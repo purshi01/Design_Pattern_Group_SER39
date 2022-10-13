@@ -1,19 +1,25 @@
-public class CourseSyllabus implements  GenerateSyllabus{
+import java.util.Date;
+import java.util.List;
 
-	public void getPreviousSyllabus() {
+public class CourseSyllabus implements Syllabus_Interface {
 
-	}
+    public List<Syllabus> getPreviousSyllabus(Date from, Date to) {
 
-	public void getCourseTemplate() {
+        return null;
+    }
 
-	}
+    public void getCourseTemplate() {
 
-	public void generateSyllabus() {
+    }
 
-	}
 
-	public SyllabusGeneration getSyllabus() {
-		return null;
-	}
+    @Override
+    public List<Syllabus> getPreviousSyllabus(Date from, Date to, Syllabus syllabus, Course course) {
+        return null;
+    }
 
+    @Override
+    public List<Syllabus> generateSyllabus(Syllabus syllabus, Course course) {
+        return null;
+    }
 }

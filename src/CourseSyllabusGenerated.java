@@ -1,10 +1,10 @@
 public class CourseSyllabusGenerated {
 
-	/**
-	 *  
-	 */
-	public void Generate(GenerateSyllabus getSyllabus) {
+    /**
+     *
+     */
+    public void Generate(Syllabus_Interface getSyllabus) {
 
-	}
+    }
 
 }
